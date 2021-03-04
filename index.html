@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+  <div class="container">
+    <form>
+  <div id="tidal"> 
+    <h1 id="title">Participants in the SMKN 1 Metro Competition</h1><strong>SMKN 1 Metro Competition</strong></div></form><br><br><br>
+    
+  <section id="rru-description">
+    <p id="description"><strong>Registration</strong></p>
+    </section>
+    <form id="survey-form">
+      <h2 id="title-pad">Sign-up here:</h2>
+    
+   
+    <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="Enter your Email"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="number"
+          >Class<span class="clue"></span></label
+        >
+        <input
+          type="number"
+          name="number"
+          id="number"
+          min="10"
+          max="99"
+          class="form-control"
+          placeholder="Enter your Class"
+        />
+      </div>
+  <br>
+  
+  
+  <fieldset class="form-group">
+          <legend>what competition do you want to enter?</legend>
+          <input id="soccer" type="radio" name="levels" value="soccer">
+          <label for="soccer">Soccer</label><br>
+          <input id="bodminton" type="radio" name="levels" value="Badminton">
+          <label for="Badminton">Badminton</label><br>
+          <input id="volleyball" type="radio" name="levels" value="volleyball">
+          <label for="volleyball">volleyball</label>
+        </fieldset>
+  
+    <div class="form-group">
+        <p>Select your class</p>
+        <select id="dropdown" name="role" class="form-control" required>
+          <option disabled selected value>Select your class</option>
+          <option value="X">X</option>
+          <option value="XI">XI</option>
+          <option value="XII">XII</option>
+      </select></div>
+   <br>
+     
+  <div class="form-group"><br>
+   <p>Department name</p><br>
+   <section id="grid-container">
+    <div "id=item2">
+     <label><input class="input-checkbox" type="checkbox" name="likes" value="Marketing">
+        Marketing</label><br>
+    <label
+          ><input 
+            name="likes"
+            value="Accounting"
+            type="checkbox"
+            class="input-checkbox"
+                  />Accounting</label><br>
+      <label
+          ><input 
+            name="likes"
+            value="cullinary art"
+            type="checkbox"
+            class="input-checkbox"
+                  />Cullinary art</label>
+     </div>
+    <div id="item3">
+  
+         <input
+            name="likes"
+            value="tourism"
+            type="checkbox"
+            class="input-checkbox">Tourism</label>
+     <br><br>
+    <label><input
+            name="likes"
+            value="Hotel"
+            type="checkbox"
+            class="input-checkbox"
+           />Hotel</label>
+     <br>
+     </div></section>
+      <div class="form-group">
+        <p>Any questions write down below . . .</p>
+        <textarea
+          id="comments"
+          class="input-textarea"
+                  type="textarea"
+                  name="comments">
+  </textarea></div></section>
+      
+        <button id="submit" class="submit-button ">
+            Submit
+          </button>
+  </body>
+</html>
